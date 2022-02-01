@@ -15,4 +15,9 @@ ar rc libstack.a stack.o
 
 ## Usage 
 
-Just include stack.h from include/ and link  libstack.a
+Just move stack.h from include/  to include/ dir and move  libstack.a  to lib/ dir of your project
+
+Compile example with this lib: 
+```
+gcc somesource.c -lstack -L../../lib -I../../include
+```
