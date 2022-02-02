@@ -7,7 +7,7 @@ No depends
 
 ## Compile
 
-Just run in src/code
+Just run in **src/code**
 ```
 gcc -c stack.c -o stack.o
 ar rc libstack.a stack.o
@@ -15,7 +15,7 @@ ar rc libstack.a stack.o
 
 ## Usage 
 
-Just move stack.h from include/  to include/ dir and move  libstack.a  to lib/ dir of your project
+Just move **stack.h** from **export/**  to **include/** dir and move  **libstack.a**  to **lib/** dir of your project
 
 Compile example with this lib: 
 ```
