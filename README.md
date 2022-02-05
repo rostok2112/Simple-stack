@@ -1,6 +1,17 @@
 # Simple stack
 Simple stack on void pointers(for value) and  based on linked list. For own-use.
 
+## Tools
+
+GCC and Make
+```
+sudo apt install build-essential
+```
+CMake
+```
+sudo apt install cmake
+```
+
 ## Depends
 
 No depends
@@ -9,7 +20,7 @@ No depends
 
 Just run in **src/code**
 ```
-gcc -c stack.c -o stack.o
+gcc -c stack.c -o stack.o -I../../include
 ar rc libstack.a stack.o
 ```
 

@@ -1,4 +1,4 @@
-#include "../headers/types.h"
+#include <types_stack.h>
 
 void stack_push(Stack_t  **head, void *value)
 {

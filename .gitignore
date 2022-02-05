@@ -1,9 +1,14 @@
+#Exceptions
+!include/types.h
+
 #Directories
 bin/
+build/
 obj/
-include/
+include/*
 lib/
 share/
+
 
 #Temp files
 ~*
@@ -53,6 +58,7 @@ share/
 *.hex
 
 # Debug files
+*debug*
 *.dSYM/
 *.su
 *.idb
