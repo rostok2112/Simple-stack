@@ -3,11 +3,9 @@ project(stack LANGUAGES C)
 
 set(ROOT_DIR ${CMAKE_CURRENT_LIST_DIR})
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${ROOT_DIR}/export)
-#set(CMAKE_SOURCE_DIR  ${ROOT_DIR}) 
 
 file(GLOB 
 	CS "${ROOT_DIR}/src/*.c")
- 
 include_directories("${ROOT_DIR}/include")
 
 add_library(${PROJECT_NAME} ${CS})

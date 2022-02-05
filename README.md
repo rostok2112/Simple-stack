@@ -16,12 +16,11 @@ sudo apt install cmake
 
 No depends
 
-## Compile
+## Build
 
-Just run in **src/code**
+Just run 
 ```
-gcc -c stack.c -o stack.o -I../../include
-ar rc libstack.a stack.o
+sh build.sh 
 ```
 
 ## Usage 
@@ -30,5 +29,7 @@ Just move **stack.h** from **export/**  to **include/** dir and move  **libstack
 
 Compile example with this lib: 
 ```
-gcc somesource.c -lstack -L../../lib -I../../include
+gcc somesource.c -lstack -L./lib -I./include
 ```
+
+Examples of usage and docs inside **example/** dir

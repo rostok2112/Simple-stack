@@ -17,7 +17,7 @@ Method **stack_top** - returns but not removes an element from top of the stack
 Method **new_cast** - returns new Cast_t pointer
 
 #### Return value
->- Cast_t * cast -  new copy of Cast_t
+>- Cast_t *cast - new copy of Cast_t
 ## Types and classes
 ### Stack_t
 Class **Stack_t** - implements stack
@@ -25,7 +25,7 @@ Class **Stack_t** - implements stack
 >- struct Stack *next - pointer to next element of stack
 >- void *value - current element
 ### Cast_t
-Type **Cast_t** -  Union that enables to push a simple type values to a stack like an element
+Type **Cast_t** - Union that enables to push a simple type values to a stack like an element
 #### Fields
 >- double d 
 >- long long int lli 

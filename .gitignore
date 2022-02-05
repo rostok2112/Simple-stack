@@ -1,5 +1,7 @@
 #Exceptions
 !include/types.h
+!include/types_stack.h
+!include/types_cast.h
 
 #Directories
 bin/
