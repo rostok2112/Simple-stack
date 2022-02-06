@@ -4,7 +4,7 @@
 Method **stack_push** - pushing new element to the top of the stack
 #### Arguments:
 >- Stack_t **head - pointer to the top of the stack
->- void *value - new element. May be a simple type like int or double, but wrapped by pointer to Cast_t type or a pointer to the structure/union etc.
+>- void *value - new element. May be a simple type like int or double, but wrapped by pointer to **Cast_t** type or a pointer to the structure/union etc.
 ### stack_pop()
 Method **stack_pop** - removes and returns an element from top of the stack
 #### Arguments:
@@ -14,10 +14,10 @@ Method **stack_pop** - removes and returns an element from top of the stack
 ### stack_top()
 Method **stack_top** - returns but not removes an element from top of the stack
 ### new_cast()
-Method **new_cast** - returns new Cast_t pointer
+Method **new_cast** - constructor of new **Cast_t** object
 
 #### Return value
->- Cast_t *cast - new copy of Cast_t
+>- Cast_t *cast - new copy of **Cast_t**
 ## Types and classes
 ### Stack_t
 Class **Stack_t** - implements stack
