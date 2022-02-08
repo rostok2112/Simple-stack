@@ -33,4 +33,3 @@ void  *stack_top(const Stack_t *head)
 
     return head->value;
 }
-

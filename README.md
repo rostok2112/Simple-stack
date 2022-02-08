@@ -23,6 +23,11 @@ Just run
 sh build.sh 
 ```
 
+If you need specific type of lib like shared, just run
+```
+sh build.sh SHARED
+``` 
+
 ## Usage 
 
 Just move **stack.h** from **export/**  to **include/** dir and move  **libstack.a**  to **lib/** dir of your project
